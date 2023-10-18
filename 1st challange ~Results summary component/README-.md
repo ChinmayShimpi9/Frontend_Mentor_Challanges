@@ -30,8 +30,8 @@ In that you need to give status wise css and when you hover on it, like the butt
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/responsive-results-summary-component--0Wy5e2xID))
+- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://theresultssummarycomponent.netlify.app/))
 
 
 ## My process
@@ -96,4 +96,4 @@ There are some concepts which I'm not comfortable while doing still I'm not maki
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ChinmayShimpi9]([yourusername](https://www.frontendmentor.io/profile/ChinmayShimpi9)https://www.frontendmentor.io/profile/ChinmayShimpi9)
