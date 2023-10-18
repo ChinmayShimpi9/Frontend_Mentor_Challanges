@@ -16,8 +16,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 - [Continued development](#continued-development)
 
-- [Author](#author)
-
 
 ### The challenge
 
@@ -28,8 +26,7 @@ In that you need to give status wise css and when you hover on it, like the butt
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://thesinglepricegridcomponent.netlify.app/))
 
 
 ## My process
@@ -82,6 +79,3 @@ These css help me to make three section in which first section will contain the 
 
 There are some concepts which I'm not comfortable while doing still I'm not making things well such as flexbox, grid, positions and making responsive designs.
 
-## Author
-
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
