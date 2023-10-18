@@ -1,0 +1,194 @@
+/* Google fonts  */
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+/* Global css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #e6eff6;
+  font-size: 16px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* css for container and grid */
+
+.container {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.grid {
+  max-width: 750px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* css for first section  */
+
+.first-section {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  padding: 50px;
+}
+
+h2.com-heading {
+  letter-spacing: 0.1px;
+  line-height: 55px;
+  font-weight: 700;
+  font-size: 26px;
+  color: #35b0ad;
+}
+
+h4.com-sub {
+  color: #c2d55f;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+p.com-about {
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #a3a8ac;
+  font-weight: 500;
+  font-size: 17px;
+  padding-right: 20px;
+}
+
+/* css for sub-section  */
+
+.sub-section {
+  padding: 50px;
+  background-color: #2bb3b1;
+}
+
+h2.mon-sub {
+  color: hsl(204, 43%, 93%);
+  letter-spacing: 0.2px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.price-sub {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.price {
+  color: white;
+  font-size: 37px;
+  padding-right: 15px;
+  font-weight: 700;
+}
+
+.months {
+  color: hsl(199, 19%, 83%);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h4.sub-access {
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  font-size: 18px;
+  color: hsl(204, 43%, 93%);
+  margin-bottom: 30px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.cta {
+  background-color: #bfdf32;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(204, 43%, 93%);
+  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+/* css for why us section */
+
+.why-section {
+  padding: 50px;
+  background-color: #4abebd;
+}
+
+.why-head {
+  color: hsl(204, 43%, 93%);
+  letter-spacing: 0.2px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+p.why-reason {
+  font-size: 16px;
+  padding-right: 70px;
+  line-height: 23px;
+  color: hsl(205, 26%, 87%);
+}
+
+/* Responsive css  */
+
+@media only screen and (max-width: 830px) {
+  .container {
+    margin: 30px 30px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+  }
+
+  .first-section {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .container {
+    margin: 30px 30px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    background-color: white;
+  }
+
+  .first-section {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 50px;
+  }
+
+  .sub-section {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 50px;
+  }
+}
