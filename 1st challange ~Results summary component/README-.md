@@ -16,8 +16,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 - [Continued development](#continued-development)
 
-- [Author](#author)
-
 
 ### The challenge
 
@@ -30,7 +28,6 @@ In that you need to give status wise css and when you hover on it, like the butt
 
 ### Links
 
-- Solution URL:(https://www.frontendmentor.io/solutions/responsive-results-summary-component--0Wy5e2xID))]
 - Live Site URL: (https://theresultssummarycomponent.netlify.app/))
 
 
@@ -94,6 +91,3 @@ These css help me to make the left section of the card very simple and is same l
 
 There are some concepts which I'm not comfortable while doing still I'm not making things well such as flexbox, grid, positions and making responsive designs.
 
-## Author
-
-- Frontend Mentor - (https://www.frontendmentor.io/profile/ChinmayShimpi9)https://www.frontendmentor.io/profile/ChinmayShimpi9)
