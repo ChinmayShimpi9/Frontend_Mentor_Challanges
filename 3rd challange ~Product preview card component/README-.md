@@ -1,6 +1,6 @@
-# Frontend Mentor - Product Review Card Component
+# Frontend Mentor - Product Preview Card Component
 
-This is a solution to the [Product Review Card Component challenge on Frontend Mentor]
+This is a solution to the [Product Preview Card Component challenge on Frontend Mentor]
 
 ## Table of contents
 
@@ -21,15 +21,14 @@ This is a solution to the [Product Review Card Component challenge on Frontend M
 
 ### The challenge
 
-In these challange we are free to use flexbox or grid or all the other properties and the challange is simple to create the [Product Review Card Component].
+In these challange we are free to use flexbox or grid or all the other properties and the challange is simple to create the [Product Preview Card Component].
 Which includes two sections of card in which one section will display the whole image of the product, second section wil display product details and all.
 In that you need to give status wise css and when you hover on it, like the button should glow when you hover on it.
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://theproductpreviewcardcomponent.netlify.app/)
 
 
 ## My process
