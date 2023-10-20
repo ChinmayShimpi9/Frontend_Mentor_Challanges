@@ -1,0 +1,85 @@
+/* Google Fonts  */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/* Global Css  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* the container css */
+
+.container {
+  max-width: 350px;
+  box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.whole-qr {
+  box-shadow: 0 0;
+  height: 100%;
+  background-color: hsl(0, 0%, 100%);
+  padding: 18px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* The qr image css */
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img img {
+  border-radius: 15px;
+  margin-bottom: 28px;
+  max-width: 100%;
+}
+
+/* The overall text css */
+
+.head-para {
+  padding: 0 20px;
+  margin-bottom: 28px;
+}
+
+.qr-head {
+  margin-bottom: 18px;
+}
+
+h2.qr-head {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  color: hsl(218, 44%, 22%);
+}
+
+p.qr-para {
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Responsive css */
+
+@media only screen and (max-width: 400px) {
+  .container {
+    margin: auto 20px;
+  }
+}
