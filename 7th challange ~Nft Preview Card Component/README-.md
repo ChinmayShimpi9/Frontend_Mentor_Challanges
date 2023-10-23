@@ -52,7 +52,7 @@ Which includes the card which will display image and the some info about that im
 In these challange I learned lot of things that are in the frontend development some of which  I learned in most simple and proper way are:
 
 1. I want to include most amazing thing I learned in these challange is to use the position property and to use it effectively with the hover effect.
-2. Also I use how to Center a div how You can play with it using the css grid property.
+2. Also I use how to Center a div how You can play with it.
 3. In these challange I learned about how to give the background to image and how to add the opacity and color to it to look like the image has a blur bg color.
 
 
