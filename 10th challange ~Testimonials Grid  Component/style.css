@@ -1,0 +1,317 @@
+/* Google Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+/* Global css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Overall css */
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: hsl(210, 46%, 95%);
+  font-size: 13px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* container and card css */
+
+.container {
+  border-radius: 12px;
+}
+
+.cards {
+  border-radius: 12px;
+  max-width: 1100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+h2.info {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+p.para {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  color: hsl(0, 0%, 81%);
+}
+
+/* first card css */
+
+.first-card {
+  background-color: hsl(263, 55%, 52%);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 30px;
+  border-radius: 10px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position-x: 340px;
+  box-shadow: 3px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.first-card h2 {
+  color: hsl(0, 0%, 100%);
+}
+
+.profile-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.img1 img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 15px;
+  border: 1px solid hsl(210, 46%, 95%);
+}
+
+.first-card .name-quali h4 {
+  font-size: 11px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  margin-bottom: 1.5px;
+}
+
+.first-card .name-quali p {
+  font-size: 9px;
+  font-weight: 500;
+  color: hsl(0, 0%, 81%);
+}
+
+/* second card css */
+
+.second-card {
+  background-color: hsl(217, 19%, 35%);
+  padding: 30px;
+  border-radius: 10px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  box-shadow: 3px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.second-card h2 {
+  color: hsl(0, 0%, 100%);
+}
+
+.second-card .name-quali h4 {
+  font-size: 11px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  margin-bottom: 1.5px;
+}
+
+.second-card .name-quali p {
+  font-size: 9px;
+  font-weight: 500;
+  color: hsl(0, 0%, 81%);
+}
+
+/* third card css */
+
+.third-card {
+  background-color: hsl(0, 0%, 100%);
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 30px;
+  border-radius: 10px;
+  margin-right: 25px;
+  box-shadow: 3px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.third-card h2 {
+  color: hsl(219, 29%, 14%);
+}
+
+.third-card p {
+  color: hsl(217, 19%, 35%);
+}
+
+.third-card h2.info {
+  padding-right: 15px;
+}
+
+.third-card p.para {
+  padding-top: 10px;
+}
+
+.third-card .name-quali h4 {
+  font-size: 11px;
+  color: hsl(219, 29%, 14%);
+  font-weight: 600;
+  margin-bottom: 1.5px;
+}
+
+.third-card .name-quali p {
+  font-size: 9px;
+  font-weight: 500;
+  color: hsl(0, 0%, 81%);
+}
+
+
+/* fourth card css */
+
+.fourth-card {
+  background-color: hsl(219, 29%, 14%);
+  grid-column-start: 2;
+  grid-column-end: 4;
+  padding: 30px;
+  border-radius: 10px;
+  margin-right: 25px;
+  box-shadow: 3px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.fourth-card h2 {
+  color: hsl(0, 0%, 100%);
+}
+
+.fourth-card .name-quali h4 {
+  font-size: 11px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  margin-bottom: 1.5px;
+}
+
+.fourth-card .name-quali p {
+  font-size: 9px;
+  font-weight: 500;
+  color: hsl(0, 0%, 81%);
+}
+
+
+/* fifth card css */
+
+.fifth-card {
+  background-color: hsl(0, 0%, 100%);
+  grid-column-start: 4;
+  grid-row-start: 4;
+  grid-row-end: 1;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.fifth-card h2 {
+  color: hsl(219, 29%, 14%);
+}
+
+.fifth-card p {
+  color: hsl(217, 19%, 35%);
+}
+
+.fifth-card h2.info {
+  letter-spacing: 1px;
+}
+
+.fifth-card p.para {
+  padding-top: 12px;
+  padding-right: 10px;
+}
+
+.fifth-card .name-quali h4 {
+  font-size: 11px;
+  color: hsl(219, 29%, 14%);
+  font-weight: 600;
+  margin-bottom: 1.5px;
+}
+
+.fifth-card .name-quali p {
+  font-size: 9px;
+  font-weight: 500;
+  color: hsl(0, 0%, 81%);
+}
+
+
+/* Responsive css */
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .container {
+    margin: 30px 40px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    display: block;
+  }
+
+  .first-card {
+    margin-right: 0px;
+    margin-bottom: 30px;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: 200px;
+  }
+  .second-card {
+    margin-bottom: 30px;
+    margin-right: 0px;
+  }
+  .third-card {
+    margin-bottom: 30px;
+    margin-right: 0px;
+  }
+  .fourth-card {
+    margin-bottom: 30px;
+    margin-right: 0px;
+  }
+  .fifth-card {
+    margin-bottom: 30px;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 600px) {
+  .container {
+    margin: 30px 30px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .first-card {
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: 350px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  .second-card {
+    grid-column-start: 5;
+    grid-column-end: 6;
+  }
+  .third-card {
+    grid-column-start: 2;
+    grid-column-end: 1;
+    margin-right: 0px;
+  }
+  .fourth-card {
+    grid-column-start: 6;
+    grid-column-end: 4;
+  }
+  .fifth-card {
+    grid-column-start: 6;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 4;
+  }
+}
