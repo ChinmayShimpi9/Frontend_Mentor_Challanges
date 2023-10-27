@@ -1,0 +1,125 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+/* Global Css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  background: hsl(185, 75%, 39%);
+}
+
+/* Card section css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.profile-card {
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 15px 15px 45px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+}
+
+.card-bg {
+  background: url(images/bg-pattern-card.svg);
+  background-size: cover;
+  height: 180px;
+}
+
+.card-person img {
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid white;
+  top: 125px;
+  left: 150px;
+}
+
+.card-person {
+  margin: 80px auto;
+}
+
+h4.name {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+h4.name span {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  margin-left: 8px;
+}
+
+p.city {
+  font-size: 17px;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
+
+
+/* social info css section */
+
+.social-info {
+  padding: 30px 30px;
+  border-top: 0.5px solid rgb(234, 232, 232);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.followers h5 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.followers p {
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  letter-spacing: 2.5px;
+}
+
+.likes h5 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.likes p {
+  font-size: 13px;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  letter-spacing: 2px;
+}
+
+.photos h5 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.photos p {
+  font-size: 13px;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  letter-spacing: 2px;
+}
+
