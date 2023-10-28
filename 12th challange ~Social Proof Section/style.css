@@ -1,0 +1,304 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+
+/* Global Css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  font-size: 22px;
+  position: relative;
+  background: url(images/bg-pattern-top-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+/* container and card css */
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 10px;
+  width: 1440px;
+  background-color: white;
+}
+
+/* Top section css */
+
+.top-section {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+/* top left text section css */
+
+.top-left {
+  width: 40%;
+}
+
+.top-left h2.head-left {
+  font-size: 65px;
+  font-weight: 700;
+  padding-right: 130px;
+  color: hsl(300, 43%, 22%);
+  margin-bottom: 35px;
+}
+
+p.main-para {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30px;
+  color: hsl(303, 10%, 53%);
+  padding-right: 50px;
+}
+
+/* top-right section css */
+
+.top-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 115px;
+}
+
+.first-rating {
+  display: flex;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 8px;
+  padding: 15px 25px;
+  margin-bottom: 35px;
+}
+.second-rating {
+  display: flex;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 8px;
+  padding: 15px 25px;
+  margin-left: 145px;
+  margin-bottom: 35px;
+}
+.third-rating {
+  display: flex;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 8px;
+  padding: 15px 25px;
+  margin-left: 235px;
+}
+
+.third-rating .ratings {
+  margin-right: 50px;
+}
+
+.third-rating h4.rated {
+  margin-right: 35px;
+}
+.ratings {
+  margin-right: 35px;
+}
+
+.ratings img {
+  height: 18px;
+  width: 18px;
+}
+
+h4.rated {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+
+/* Bottom section css */
+
+.bottom-section {
+  display: flex;
+  align-items: flex-start;
+  border-radius: 10px;
+}
+
+.first-card {
+  padding: 40px;
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  border-radius: 10px;
+  margin-right: 35px;
+  margin-top: 0;
+  padding-bottom: 40px;
+}
+.second-card {
+  padding: 40px;
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  border-radius: 10px;
+  margin-right: 35px;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+.third-card {
+  padding: 40px;
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  border-radius: 10px;
+  margin-top: 60px;
+  padding-bottom: 40px;
+}
+
+.name-type {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.name-type img {
+  border-radius: 50%;
+  margin-right: 25px;
+  height: 40px;
+  width: 40px;
+}
+
+.name-type .first-text h3.name {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.name-type .first-text p.type {
+  font-size: 18px;
+  color: hsl(333, 80%, 67%);
+}
+
+.bottom-section p.card-para {
+  font-size: 19px;
+  font-weight: 400;
+  color: hsl(300, 24%, 96%);
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+/* Responsive css */
+
+/* @media only screen and (max-width: 500px) {
+  .container {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bottom-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+
+  .top-left {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .top-left h2.head-left {
+    font-size: 45px;
+    font-weight: 700;
+    padding-right:0px;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 20px;
+  }
+  
+  p.main-para {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: hsl(303, 10%, 53%);
+    padding-right: 0px;
+  }
+  
+
+
+
+  .top-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .first-rating {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 35px;
+  }
+  .second-rating {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 35px;
+  }
+  .third-rating {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 35px;
+  }
+  
+  .third-rating .ratings {
+    margin-right: 0px;
+  }
+  
+  .third-rating h4.rated {
+    margin-right: 0px;
+  }
+  .ratings {
+    margin-right: 0px;
+  }
+  
+  .ratings img {
+    height: 18px;
+    width: 18px;
+  }
+  
+  h4.rated {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+  }
+
+} */
